@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 const App = () => {
   return (
     <div className="App">
@@ -112,7 +111,60 @@ const App = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="best-value">
+          <div>
+            <h2 className="value-heading">Your Best Value Services</h2>
+            <a
+              href="https://play.google.com/store"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="playstore-button"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="Get it on Google Play"
+              />
+            </a>
+          </div>
+          <p className="value-subtext">
+            “If you don’t try this app, you won’t become the superhero you were meant to be”
+          </p>
+          <div className="value-cards">
+            <div className="cards">
+              <img src="/images/pack4.png" alt="feature 1" />
+              <h2>Special Features</h2>
+              <h3>Rs. XXXX</h3>
+              <h4><a href="#">View Details</a></h4>
+            </div>
+            <div className="cards">
+              <img src="/images/pack5.png" alt="feature 2" />
+              <h2>Special Features</h2>
+              <h3>Rs. XXXX</h3>
+              <h4><a href="#">View Details</a></h4>
+            </div>
+            <div className="cards">
+              <img src="/images/pack1.png" alt="feature 3" />
+              <h2>Special Features</h2>
+              <h3>Rs. XXXX</h3>
+              <h4><a href="#">View Details</a></h4>
+            </div>
+            <div className="cards">
+              <img src="/images/pack2.png" alt="feature 4" />
+              <h2>Special Features</h2>
+              <h3>Rs. XXXX</h3>
+              <h4><a href="#">View Details</a></h4>
+            </div>
+            <div className="cards">
+              <img src="/images/pack3.png" alt="feature 5" />
+              <h2>Special Features</h2>
+              <h3>Rs. XXXX</h3>
+              <h4><a href="#">View Details</a></h4>
+            </div>
+          </div>
+        </div>
 
+      </section>
       <footer>
         <div className="footer-container">
           <div class="products">
@@ -159,7 +211,7 @@ const App = () => {
         </div>
         <div className="copy-rights">&copy; 2025 Beauty Parlor. All rights reserved.</div>
       </footer>
-    </div>
+    </div >
   );
 };
 

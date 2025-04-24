@@ -309,6 +309,86 @@ p {
   font-size:large; 
   font-weight:400;
 }
+.best-value {
+  text-align: center;
+  padding-top: 60px ;
+  margin:0px;
+  height: 920px;
+  background-color: rgba(255, 192, 203, 1);
+}
+.value-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.playstore-button img {
+  height: 50px;
+}
+
+.value-heading {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.value-subtext {
+  font-weight: 500;
+  font-size: larger;
+  margin-top: 10px;
+  text-align:center;
+}
+
+.value-cards {
+  display: flex;
+  flex-direction:row;
+  gap: 70px;
+  padding: 50px;
+  margin-top: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.value-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.cards {
+  display:flex;
+  flex-direction:column;
+  border-radius: 50px;
+  width: 300px;
+  height:500px;
+  background-color:rgba(255, 192, 203, 1);
+}
+
+.cards img {
+  height:400px;
+  padding-bottom: 50px;
+}
+
+.cards h2 {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.cards h3 {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.cards h4 {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.cards a {
+  text-decoration: none;
+  color: black;
+}
+
 
 footer{
   background-color: #FFF0F5;
