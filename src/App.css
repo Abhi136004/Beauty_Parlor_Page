@@ -1,4 +1,10 @@
-/* App.css */
+
+section {
+  display: flex;
+  flex-direction: column;
+  clear: both;
+  width:100%;
+}
 
 body {
   margin: 0;
@@ -393,7 +399,6 @@ p {
 footer{
   background-color: #FFF0F5;
   padding: 0px;
-  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -425,4 +430,238 @@ footer{
 .copy-rights {
   text-align: center;
   margin-bottom:50px;
+}
+.customers {
+  display: grid;
+  width: 1200px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 9%;
+  margin: 9%;
+  gap: 80px;
+
+
+}
+
+.two,
+.three {
+  padding: 50px;
+  font-size: 1.35rem;
+  font-weight: 700;
+  border-radius: 10px;
+
+}
+
+.customers>.one {
+  grid-column: span 2;
+  border-radius: 10px;
+}
+
+.one>img {
+  width: 400px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 50px;
+}
+
+
+.one>button {
+  background-color: white;
+
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  
+}
+
+
+.achivements-celebrities {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-rows: 1fr;
+  text-align: center;
+
+}
+
+.achivements {
+display: flex;
+gap:100px;
+align-items: center;
+max-width: 1100px;
+padding-left: 150px;
+}
+
+
+.achivements>div>img {
+  border-radius: 50%;
+}
+
+.celebrities {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  padding-left: 40px;
+  margin-bottom: 0px;
+
+}
+.act>h3{
+  font-size: 2rem;
+}
+
+.act>div {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.celebrities>div>img {
+  border-radius: 40px;
+  border: 1px black solid;
+}
+
+.act {
+  padding-top: 50px;
+  padding-left: 0px;
+  width: 100%;
+
+}
+.achivements>div>p {
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+.achieve {
+  width: 100%;
+  max-width: 400px;
+}
+
+.achieve>img {
+  position: relative;
+  bottom: 110px;
+  right: 260px;
+}
+.service{
+  background-color: #FFF0F5;
+  width:100%;
+  height:160px;
+}
+.service>div{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height:100vh;
+  
+}
+.service>div>div>button{
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: medium;
+  border: none;
+  cursor: pointer;
+  
+}
+.service-item2{
+  display: flex;
+  gap:25px;
+}
+.media-card>img{
+  height: 450px;
+  width:500px;
+}
+.media-heading>img{
+  width:500px;
+  height:160px;
+}
+.media-section>.media-grid{
+  display: flex;
+  flex-direction: row;
+  
+}
+.media-heading{
+  height:500px;
+  width:500px;
+  
+}
+.coverage-2{
+  position:relative;
+  bottom: 250px;
+}
+.coverage-3{
+  position:relative;
+  bottom: 500px;
+}
+.trusted-partners{
+height:200px;
+width:100%;
+}
+.trusted-partners>div{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  
+  align-items: center;
+}
+.trusted-partners>div>div{
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  background-color: #FF69B4;
+  
+}
+.trusted-partners>p{
+  padding-top: 20px;;
+  text-align: center;
+  font-size: medium;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.download{
+  background-color: #FFC0CB;
+  width:100%;
+  
+}
+.setting-account{
+  display: flex;
+  flex-direction: row;
+}
+.setting-account-img>img{
+  height:600px;
+  width:325px;
+  position: relative;
+  bottom:60px;
+  left: 125px;
+  border:8px solid  #FF69B4;
+  border-radius:24px;
+}
+.setting-account-ways{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  gap:40px;
+}
+.setting-account-ways>img{
+  height:140px;
+  width:150px;
+  border-radius: 24px;
+}
+.setting-account-ways>div{
+  
+  height:150px;
+}
+.playstores{
+margin-right: 50px;
+height: 200px;
+width:200px;
 }

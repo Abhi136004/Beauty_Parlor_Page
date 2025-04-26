@@ -37,7 +37,7 @@ const App = () => {
       <section>
         <div className="book-service">
           <div className="part1">
-            <button className="subscribe">Subscribe</button>
+            <button onClick={() => {}}className="subscribe">Subscribe</button>
             <h2>Book Your <br />Service</h2>
             <div className="logo">
               <img src="/images/elite.png" alt="elite" />
@@ -76,7 +76,7 @@ const App = () => {
                 <div className="content">
                   <h2>Category:</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                  <button>Book Now</button>
+                  <button onClick={() => {}}>Book Now</button>
                 </div>
               </div>
             ))}
@@ -163,9 +163,202 @@ const App = () => {
             </div>
           </div>
         </div>
-
       </section>
-      <footer>
+      <section
+      className="product"
+      style={{ backgroundColor: '#FFF0F5' }}
+    >
+      <div className="customers">
+        <div
+          className="one"
+          style={{
+            backgroundColor: '#FF69B4',
+            borderRadius: '10px',
+          }}
+        >
+          <img
+            src="./images/3.png"
+            height="350"
+            width="300"
+            alt="Product"
+          />
+          <p
+            style={{
+              fontWeight: 500,
+              fontSize: 'xx-large',
+              paddingTop: '80px',
+            }}
+          >
+            The best Product <br />
+            provider to the <br />
+            customers
+          </p>
+          <button onClick={() => {}} style={{ backgroundColor: 'white',}}> Explore Now</button>
+        </div>
+
+        <div className="two" style={{ backgroundColor: 'white' }}>
+          <p
+            style={{
+              color: '#FF69B4',
+              fontWeight: 500,
+              fontSize: '1.5rem',
+            }}
+          >
+            Keys to writing copy that actually converts and sells users
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore..
+          </p>
+        </div>
+
+        <div className="three" style={{ backgroundColor: 'white' }}>
+          <p
+            style={{
+              color: '#FF69B4',
+              fontWeight: 500,
+              fontSize: '1.5rem',
+            }}
+          >
+            Keys to writing copy that actually converts and sells users
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore..
+          </p>
+        </div>
+      </div>
+    </section>
+
+<section>
+  <div className="achivements-celebrities">
+    <div className="achieve">
+      <img src="./images/2.png" height="800" />
+    </div>
+    <div className="act">
+      <h3>Achivements</h3>
+      <div className="achivements">
+        <div>
+          <img src="./images/symbol.png" height="75" width="75" />
+          <p>5+years <br />Experience</p>
+        </div>
+        <div>
+          <img src="./images/symbol.png" height="75" width="75" />
+          <p>500+ <br />Bookings</p>
+        </div>
+        <div>
+          <img src="./images/symbol.png" height="75" width="75" />
+          <p>500+ <br />Happy Customers</p>
+        </div>
+        <div>
+          <img src="./images/symbol.png" height="75" width="75" />
+          <p>⭐ 4.5 <br />Rating</p>
+        </div>
+        <div>
+          <img src="./images/symbol.png" height="75" width="75" />
+          <p>1M<br />App Downloaded</p>
+        </div>
+      </div>
+
+      <h3>Celebrities Loves Us</h3>
+      <div className="celebrities">
+        <div>
+          <img src="./images/celebrity1.png" height="250" width="170" />
+        </div>
+        <div>
+          <img src="./images/celebrity2.png" height="250" width="170" />
+        </div>
+        <div>
+          <img src="./images/celebrity3.png" height="250" width="170" />
+        </div>
+        <div>
+          <img src="./images/celebrity4.png" height="250" width="170" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className="service" style={{ backgroundColor: "#FFF0F5" }}>
+  <div>
+    <div className="service-item1">
+      <h2>Ready to get Our Service ?</h2>
+      <p style={{ fontWeight: 400, fontSize: "x-large", paddingLeft: "0px" }}>
+        Sign Up or Contact Us
+      </p>
+    </div>
+    <div className="service-item2">
+      <button onClick={() => {}} style={{ backgroundColor: "rgb(253, 228, 237)" }}>Book Now</button>
+      <button onClick={() => {}} style={{ backgroundColor: "#FF69B4", color: "white" }}>
+        Contact Us
+      </button>
+    </div>
+  </div>
+</section>
+
+<section className="media" style={{ backgroundColor: "#FFC0CB" }}>
+  <div className="media-section">
+    <div className="media-heading">
+      <img src="./images/mediacoverages.png" alt="mic" />
+    </div>
+
+    <div className="media-grid">
+      <div className="media-card">
+        <img
+          src="./images/mediacoverage1.png"
+          className="coverage-1"
+          alt="ET Retail Cover"
+        />
+      </div>
+      <div className="media-card">
+        <img
+          src="./images/mediacoverage2.png"
+          className="coverage-2"
+          alt="Inc42 Cover 1"
+        />
+      </div>
+      <div className="media-card">
+        <img
+          src="./images/mediacoverage2.png"
+          className="coverage-3"
+          alt="Inc42 Cover 2"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+<section className="trusted-partners" style={{ backgroundColor: "#FFF0F5" }}>
+  <p>Trusted Partners</p>
+  <div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</section>
+
+<section className="download">
+  <div className="setting-account">
+    <div className="setting-account-img">
+      <img src="./images/settingup.jpg" alt="settingup" />
+    </div>
+    <div className="setting-account-ways">
+      <p style={{ fontSize: "3rem", fontWeight: 400 }}>Get The ABC App</p>
+      <img src="./images/symbol.png" alt="symbol" />
+      <div>
+        <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" className="playstores-button">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" className="playstores" alt="Get it on Google Play" height="200" width="200" / >
+        </a>
+        <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer"className="appstore-button">
+          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" className="appstore" alt="Download on the App Store" height="200" width="190"/>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+ <footer>
         <div className="footer-container">
           <div class="products">
             <h2>Products</h2>
