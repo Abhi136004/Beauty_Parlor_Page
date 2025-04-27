@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "myapp",
-=======
-  "name": "beauty-parlor",
->>>>>>> 5707915d20670707c25f0c51e904daef2b30b806
   "version": "0.1.0",
   "private": true,
   "dependencies": {
