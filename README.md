@@ -44,10 +44,8 @@ Below are visual previews of various sections of the homepage:
 ## 🛠️ Tech Stack
 ⚛️ React.js – Frontend framework
 
-📝 JavaScript (ES6+) – Programming language
 
-🎨 CSS / SCSS / TailwindCSS – Styling (choose based on your project)
+🎨 CSS – Styling (choose based on your project)
 
 🧭 React Router – Navigation & routing
 
-☁️ Deployment (Optional) – Vercel / Netlify / GitHub Pages
