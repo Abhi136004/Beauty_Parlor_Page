@@ -21,15 +21,27 @@ Below are visual previews of various sections of the homepage:
 
 🧩 Section
 🚪 Hero Section
-🛎️ Services Overview	
+
+
+🛎️ Services Overview
+
+
 💬 Customer Testimonials	
+
+
 💰 Pricing / Packages	
+
+
 🎁 Special Offers	
+
+
 📞 Call to Action	
+
+
 🧾 Footer Section	
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 ⚛️ React.js – Frontend framework
 
 📝 JavaScript (ES6+) – Programming language
